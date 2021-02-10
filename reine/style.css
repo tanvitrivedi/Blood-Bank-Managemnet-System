@@ -1,0 +1,217 @@
+img{
+	width: 1340px;
+	height: 400px;
+	}
+.img{
+	 position: relative;
+    text-align: center;
+    color: white;
+	}
+.top{
+    position: absolute;
+    top: 15px;
+    left: 106px;
+	}
+	
+.h2{
+	font-family:Showcard Gothic;
+	font-size:42px;
+	}
+	
+.center{
+	position: absolute;
+	top: 75%;
+    left: 160px;
+    transform: translate(-50%, -50%);
+	}
+	
+a.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.8;
+	
+}
+	
+#wiki{
+	background:transparent;
+	border:none;
+	border-radius:105px;
+	}
+	
+button{
+	color:white;
+	size:14;
+	
+	}
+	
+#do{
+	font-style:italic;
+	font-style:bold;
+	color:green;
+	font-size:30px;
+	}
+	
+#exp{
+	font-style:italic;
+	}
+	
+#table{
+	width:400px;
+	height:275px;
+	}
+	
+	
+#logo{
+	position:relative;
+	left:20%;
+	right:20%;
+	bottom:5%;
+	top:60%;
+	margin-bottom:50px;
+
+	margin-top:30px;
+	
+	}
+	
+	.footer{
+	height: 100%;  
+    width:100%; 
+    background-color: #393838; 
+    opacity: 0.5;
+	
+	}
+#2{
+	background="gray";
+	}
+	
+		
+//form
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text]{
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+}
+
+//map
+
+	.mapouter{
+		margin-left:70px;
+		text-align:right;
+		height:500px;
+		width:1080px;
+		}
+	.gmap_canvas {
+		overflow:hidden;
+		background:none!important;
+		height:500px;
+		width:1080px;
+		margin-left:70px;
+		}

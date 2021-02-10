@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<script>
+function Wikipedia(){
+document.location.href="https://en.wikipedia.org/wiki/Blood_bank";
+}
+
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+<body>
+<div class="img">
+<img src="image3.jpg" id="1" />
+<div class="top"><font class="h2">Blood Bank</font></div>
+<div class="center">
+<button type="button" id="wiki" onClick="Wikipedia()">
+<b><h5 style="font-size: 18px;color:#000000">&nbsp;&nbsp;BLOOD BANK MANAGEMENT&nbsp;&nbsp;</h5></b>
+</button>
+</div>
+</div>
+
+<center>
+<p id="do" style="font-family:Berlin Sans FB Demi;"><b>Give Blood,Give Life...</b></p>
+<p id="exp"style="font-family:Eras Demi ITC;">Heroes come in all types and sizes.</p> 
+<table>
+<tr>
+<td><img src="image.2.jpg" id="table"/></td>
+<td>
+<center>
+<h2 style="font-family:lucida calligraphy;"><b>BLOOD BANK</b></h2>
+<p>
+Today the world is become a global<br>
+village where everything is online<br>
+there are so many web based<br>
+solutions provided in the market for the<br>
+comfort of the people<br>
+But without blood human being is non-living<br>
+just by providing the web solution<br>
+of blood bank management system<br>
+</p>
+</center>
+</td>
+<td><img src="image5.jpg" id="table"/></td>
+</tr>
+<tr>
+<td><center>
+<h2 style="font-family:Lucida calligraphy;"><b>Health benefit of blood donation</b></h2>
+<p>
+=>The joy of saving human lifes<br>
+=>Reduce the Risk of Heart Diseases<br>
+=>Reduce the Risk of Cancer<br>
+=>Free health checkup<br>
+
+</p>
+</center>
+</td>
+<td><img src="image1.png" id="table"/></td>
+<td>
+<center>
+<h2 style="font-family:Stencil;"><b>The Bunes Beach</b></h2>
+<p>
+Bunes beach is one of the most beautiful places on the islands.<br>
+It is inaccessible by car.<br>
+You will have to sail on the ferry and walk.<br>
+The trek is very easy.<br>
+What is there to see and specific points.<br>
+You will not leave the beach without<br>
+replenishing your collection with various pictures.<br>
+You can start shooting on the way to the beach.<br>
+Once in the pass, turn around and you will have <br>
+a view of the fjord and the village. </p>
+</center>
+</td>
+</tr>
+</table>
+</center>
+
+
+<center>
+<br><br>
+<p><h5 style="font-family:lucida calligraphy;"> Blood is regenerated after few months but life is not, Please donate blood.</h5></p>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Get all Updates</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+		class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" method="post">
+    <div class="container">
+      <h1>Welcome!</h1>
+      <p>Please fill in this form to get connected...</p>
+      <hr>
+	  <label for="name"><b>Full Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required><br>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+			class="cancelbtn">Cancel</button>
+               <button type="button" onClick="myFunction()">Get Started!</button>
+	   <script>
+	   function myFunction()
+	   {
+	    alert("THANK YOU!");
+		}
+		</script>
+      </div>
+    </div>
+  </form>
+</div>
+
+</center>
+<br><br>
+<div id="2" class="footer"><a target="_blank" title="follow me on facebook" href="https://www.facebook.com">
+<img alt="follow me on facebook" src="facebook.jpg" border=0 id="logo" 
+style="width:50px;height:50px;" >&nbsp &nbsp
+</a>
+<a target="_blank" title="follow me on instagram" href="https://www.instagram.com">
+<img alt="follow me on facebook" src="instagram.png" border=0 id="logo"
+style="width:50px;height:50px;">&nbsp &nbsp
+</a>
+<a target="_blank" title="follow me on facebook" href="https://www.google.co.in">
+<img src="fli.png" border=0 id="logo"
+style="width:50px;height:50px;" >
+</a></div>
+
+</body>
+</html>
